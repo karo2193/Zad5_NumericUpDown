@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.karo2.zad5_numericupdown.MainActivity">
+
+    <com.example.karo2.zad5_numericupdown.UpDownView
+        android:id="@+id/upDownView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        app:btnOrientation="horizontal"
+        app:btnUp="@drawable/button_plus_bkg"
+        app:editTxt="@drawable/edit_text_border"
+        app:btnDown="@drawable/button_minus_bkg"
+
+        app:min="-10"
+        app:max="10"
+        app:value="0"
+        app:step="0.3"
+        >
+
+    </com.example.karo2.zad5_numericupdown.UpDownView>
+
+</RelativeLayout>

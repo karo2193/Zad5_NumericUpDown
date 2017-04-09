@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UpDownView">
+        <attr name="btnOrientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+
+        <attr name="btnUp" format="reference"/>
+        <attr name="editTxt" format="reference"/>
+        <attr name="btnDown" format="reference"/>
+
+        <attr name="min" format="float"/>
+        <attr name="max" format="float"/>
+        <attr name="value" format="float"/>
+        <attr name="step" format="float"/>
+
+    </declare-styleable>
+</resources>
